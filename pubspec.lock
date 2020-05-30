@@ -53,10 +53,12 @@ packages:
   charts_common:
     dependency: "direct main"
     description:
-      path: "../charts_common"
-      relative: true
-    source: path
-    version: "0.9.0"
+      path: charts_common-master
+      ref: HEAD
+      resolved-ref: "90bbc9d2dee9c4999586a76b62236564555cdef9"
+      url: "https://github.com/DLErice/charts_common.git"
+    source: git
+    version: "0.8.0"
   collection:
     dependency: "direct main"
     description:
